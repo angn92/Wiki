@@ -1,0 +1,11 @@
+psql -h localhost -U admin -d test_db -> connect with postgres inside in container
+
+\l - list of database
+\dt - list of tables in current database
+\c nameOfDb - switching to another database
+\d nameOfTable - describing a particular table
+select version(); - showing of version postgres
+\g - seeing previosuly executed command
+\? - available command for psql
+\h statements ( \h drop table) - knowing sytnatx about given statements
+\e - showing last executed command/query in available editor
